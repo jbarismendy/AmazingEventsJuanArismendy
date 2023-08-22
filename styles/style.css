@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#navbar-superior {
+    background-color: black;
+}
+
+.nav-item {
+    background-color: white;
+    border-style: groove;
+}
+
+footer>ul>li {
+    list-style: none;
+    display: inline;
+}
+
+footer>ul>li>img {
+    width: 5px;
+}
