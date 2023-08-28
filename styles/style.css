@@ -4,15 +4,6 @@
     box-sizing: border-box;
 }
 
-#navbar-superior {
-    background-color: black;
-}
-
-.nav-item {
-    background-color: white;
-    border-style: groove;
-}
-
 footer>ul>li {
     list-style: none;
     display: inline;
@@ -20,4 +11,24 @@ footer>ul>li {
 
 footer>ul>li>img {
     width: 5px;
+}
+
+
+
+.detalle-precio>p {
+    display: inline;
+}
+
+.detalle-precio {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.check-search-container {
+    display: flex;
+}
+
+a>img {
+    max-height: 45px;
 }
